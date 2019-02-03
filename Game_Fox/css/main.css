@@ -134,3 +134,44 @@ h1{
 	text-transform: uppercase;
 	margin-top: 30px;
 }
+.content{
+	background-color: #000;
+}
+.map{
+	position: relative;
+}
+.card{
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	border: 2px solid #000;
+}
+.card_logo{
+	padding: 40px;
+}
+.card_logo img{
+	width: 90px;
+}
+.card_text{
+	padding: 0 20px;
+}
+.card_text p{
+	line-height: 2;
+	font-size: 18px;
+	font-weight: 600;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	height: 80px;
+}
+.footer_text{
+	color: #fff;
+	font-size: 20px;
+}
